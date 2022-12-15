@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <title>My Portfolio</title>
+
+    </head>
+
+    <body>
+        <div class="topnav" id="myTopnav">
+            <nav>
+              <ul>
+                <a href="index.html" >HOME</a>
+                <a href="about.html">ABOUT</a>
+                <a href="services.html">SERVICES</a>
+                <a href="contact.html">CONTACT</a>
+                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                  <i class="fa fa-bars">
+                </a>
+              </ul>
+            </nav>
+        </div>
+
+      <div class="service">
+		<div class="title">
+			<h2>Services</h2>
+		</div>
+
+		<div class="box">
+			<div class="card">
+				<i class="fa-solid fa-bell"></i>
+				<h3>WEB DESIGN</h3>
+				<div class="pra">
+					<p>Develop and Design Websites</p>
+				</div>
+			</div>
+
+			<div class="card">
+				<i class="fa-solid fa-bell"></i>
+				<h3>MICROSOFT PPT</h3>
+				<div class="pra">
+					<p>Created Games,Short Story Videos,Karaoke Lyrics</p>
+				</div>
+			</div>
+			<div class="card">
+				<i class="fa-solid fa-bell"></i>
+				<h3>MICROSOFT EXCEL</h3>
+				<div class="pra">
+					<p>Organize Data,Calculate Data,Data Entry</p>
+				</div>
+			</div>
+		</div>
+	</div>
+
+    <script>
+        function myFunction() {
+          var x = document.getElementById("myTopnav");
+          if (x.className === "topnav") {
+            x.className += " responsive";
+          } else {
+            x.className = "topnav";
+          }
+        }
+        </script>
+
+
+
+    </body>
+
+
+</html>

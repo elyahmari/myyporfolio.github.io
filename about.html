@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+        <title>My Portfolio</title>
+
+    </head>
+
+    <body>
+        <div class="topnav" id="myTopnav">
+          <nav>
+            <ul>
+              <a href="index.html" >HOME</a>
+              <a href="about.html">ABOUT</a>
+              <a href="services.html">SERVICES</a>
+              <a href="contact.html">CONTACT</a>
+              <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class="fa fa-bars">
+              </a>
+            </ul>
+          </nav>
+      </div>
+
+      <div class="main">
+        <img src="img/myprofile.png" style="max-width:100%;" >
+        <div class="about-text">
+            <h2 >About Me</h2>
+            <h5>Web<span>Designer</span></h5>
+            <p>I design and develop websites for small and medium businesses. I am a sophomore BSIT student in Eastern Visayas State University Ormoc Campus. I specialize in standard-based HTML and CSS which could develop website and a webpage.</p>
+            <p>I have created games, short story videos and karaoke lyrics on Microsoft power point presentation. As well as have generated grades using Microsoft Excel.
+
+            <p>I'd love to crafting things, like dismantling broken cellphones and watches to check the device closer.</p>
+            
+        </div>
+
+    </div>
+
+    <script>
+        function myFunction() {
+          var x = document.getElementById("myTopnav");
+          if (x.className === "topnav") {
+            x.className += " responsive";
+          } else {
+            x.className = "topnav";
+          }
+        }
+        </script>
+
+
+
+    </body>
+
+
+</html>
